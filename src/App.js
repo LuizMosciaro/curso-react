@@ -1,27 +1,18 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
-import SayMyName from './components/SayMyName';
-import Pessoa from './components/Pessoa';
-import Frase from './components/Frase';
 import './index.css';
-import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
-  const name = 'Eduardo'
-
   return (
+    document.title = 'React App',
+
     <div className="App">
-      <HelloWorld /> {/* Chamando o componente */}
-      <SayMyName nome='Luiz'/>  {/** Aqui e declarado o atributo de props (nome) */}
-      <SayMyName nome = {name} />
-      <Pessoa 
-        nome = {name}
-        idade = {30}
-        profissao = 'Programador'
-        foto = "https://www.shareicon.net/data/128x128/2015/09/22/105500_development_512x512.png"
-      />
-      <Frase />
-      <List />
+      <h1>Aula sobre Evento</h1>
+      <Evento numero={1}/>
+      <Evento numero={2}/>
+      <Evento numero={3}/>
+      <Form />
     </div>
   );
 }
