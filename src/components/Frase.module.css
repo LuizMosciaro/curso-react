@@ -1,0 +1,11 @@
+/*Nao da para fazer classe com traços (classe-exemplo-abc)*/
+.fraseContainer{
+    background-color: rgb(255, 255, 255);
+    border: 1px #111;
+}
+
+.fraseContent{
+    color: #fff;
+    background-color: #333;
+    margin: 3px;
+}
