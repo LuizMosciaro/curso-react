@@ -1,16 +1,14 @@
 import './App.css';
 import './index.css';
-import Form from './components/Form';
-import Evento from './components/Evento';
+import Condicional from './components/Condicional';
 
 function App() {
   return (
     document.title = 'React App',
 
     <div className="App">
-      <h1>Aula de Passar eventos por props</h1>
-      <Evento />
-      <Form />
+      <h1>Aula 12: Renderização condicional "if"</h1>
+      <Condicional />
     </div>
   );
 }
